@@ -5,7 +5,7 @@ var port = process.env.PORT || 8080
 app.use(express.static(__dirname + '/public'))
 
 app.get('/wizard', function(req, res){
-  res.send('alligators crossing the road');
+  res.send('To get to the shell station');
 })
 
 app.listen(port, function() {
